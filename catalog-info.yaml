@@ -6,8 +6,11 @@ metadata:
   description: First github.com app for private backstage testing
   tags:
     - html
-    - test
     - website
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/managed-by-location: url:http://github.com/celdaran/backstage-test/blob/main/catalog-info.yaml
+
 spec:
   type: service
   lifecycle: production

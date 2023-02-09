@@ -1,0 +1,14 @@
+# Backstage entity metadata
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-backstage-test
+  description: First github.com app for private backstage testing
+  tags:
+    - html
+    - test
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: celdaran
